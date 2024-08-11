@@ -333,4 +333,13 @@ function getRestaurantsByType(type: string) {
   return restaurants.filter((restaurant) => restaurant.type === type);
 }
 
-export { getAllRestaurants, getRestaurantsById, getRestaurantsByType };
+function getRestaurantMenuItemCount(id: number) {
+  return restaurants.find((restaurant) => restaurant.id === id)?.menuItems;
+}
+
+export {
+  getAllRestaurants,
+  getRestaurantsById,
+  getRestaurantsByType,
+  getRestaurantMenuItemCount,
+};
