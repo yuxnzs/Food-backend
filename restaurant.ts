@@ -293,7 +293,7 @@ function getAllRestaurants() {
   return restaurants;
 }
 
-function getRestaurantById(id: number) {
+function getRestaurantsById(id: number) {
   return restaurants.find((restaurant) => restaurant.id === id);
 }
 
@@ -301,4 +301,4 @@ function getRestaurantsByType(type: string) {
   return restaurants.filter((restaurant) => restaurant.type === type);
 }
 
-export { getAllRestaurants, getRestaurantById, getRestaurantsByType };
+export { getAllRestaurants, getRestaurantsById, getRestaurantsByType };
