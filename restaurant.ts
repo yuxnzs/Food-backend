@@ -7,7 +7,7 @@ let restaurants = [
     location: "Philadelphia",
     rating: 4.6,
     type: "Breakfast",
-    mealItems: 7,
+    menuItems: 7,
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ let restaurants = [
     location: "San Diego",
     rating: 4.3,
     type: "Breakfast",
-    mealItems: 11,
+    menuItems: 11,
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ let restaurants = [
     location: "Columbus",
     rating: 4.1,
     type: "Breakfast",
-    mealItems: 5,
+    menuItems: 5,
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ let restaurants = [
     location: "Indianapolis",
     rating: 4.7,
     type: "Breakfast",
-    mealItems: 9,
+    menuItems: 9,
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ let restaurants = [
     location: "Houston",
     rating: 4.4,
     type: "Beef",
-    mealItems: 13,
+    menuItems: 13,
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ let restaurants = [
     location: "Dallas",
     rating: 4.4,
     type: "Beef",
-    mealItems: 6,
+    menuItems: 6,
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ let restaurants = [
     location: "Austin",
     rating: 4.5,
     type: "Beef",
-    mealItems: 10,
+    menuItems: 10,
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ let restaurants = [
     location: "Fort Worth",
     rating: 4.6,
     type: "Beef",
-    mealItems: 8,
+    menuItems: 8,
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ let restaurants = [
     location: "Denver",
     rating: 4.4,
     type: "Beef",
-    mealItems: 15,
+    menuItems: 15,
   },
   {
     id: 10,
@@ -97,7 +97,7 @@ let restaurants = [
     location: "Nashville",
     rating: 4.7,
     type: "Beef",
-    mealItems: 4,
+    menuItems: 4,
   },
   {
     id: 11,
@@ -107,7 +107,7 @@ let restaurants = [
     location: "Baltimore",
     rating: 4.4,
     type: "Beef",
-    mealItems: 7,
+    menuItems: 7,
   },
   {
     id: 12,
@@ -117,7 +117,7 @@ let restaurants = [
     location: "Phoenix",
     rating: 4.1,
     type: "Beef",
-    mealItems: 12,
+    menuItems: 12,
   },
   {
     id: 13,
@@ -127,7 +127,7 @@ let restaurants = [
     location: "Chicago",
     rating: 4.3,
     type: "Pasta",
-    mealItems: 5,
+    menuItems: 5,
   },
   {
     id: 14,
@@ -137,7 +137,7 @@ let restaurants = [
     location: "Charlotte",
     rating: 4.4,
     type: "Pasta",
-    mealItems: 5,
+    menuItems: 5,
   },
   {
     id: 15,
@@ -147,7 +147,7 @@ let restaurants = [
     location: "Las Vegas",
     rating: 4.2,
     type: "Pasta",
-    mealItems: 9,
+    menuItems: 9,
   },
   {
     id: 16,
@@ -157,7 +157,7 @@ let restaurants = [
     location: "New Orleans",
     rating: 4.5,
     type: "Seafood",
-    mealItems: 6,
+    menuItems: 6,
   },
   {
     id: 17,
@@ -167,7 +167,7 @@ let restaurants = [
     location: "Boston",
     rating: 4.3,
     type: "Seafood",
-    mealItems: 14,
+    menuItems: 14,
   },
   {
     id: 18,
@@ -177,7 +177,7 @@ let restaurants = [
     location: "Boston",
     rating: 4.6,
     type: "Seafood",
-    mealItems: 8,
+    menuItems: 8,
   },
   {
     id: 19,
@@ -187,7 +187,7 @@ let restaurants = [
     location: "New Orleans",
     rating: 4.3,
     type: "Seafood",
-    mealItems: 4,
+    menuItems: 4,
   },
   {
     id: 20,
@@ -197,7 +197,7 @@ let restaurants = [
     location: "Miami",
     rating: 4.4,
     type: "Seafood",
-    mealItems: 11,
+    menuItems: 11,
   },
   {
     id: 21,
@@ -207,7 +207,7 @@ let restaurants = [
     location: "San Francisco",
     rating: 4.5,
     type: "Seafood",
-    mealItems: 15,
+    menuItems: 15,
   },
   {
     id: 22,
@@ -217,7 +217,7 @@ let restaurants = [
     location: "San Francisco",
     rating: 4.2,
     type: "Chicken",
-    mealItems: 13,
+    menuItems: 13,
   },
   {
     id: 23,
@@ -227,7 +227,7 @@ let restaurants = [
     location: "San Jose",
     rating: 4.7,
     type: "Chicken",
-    mealItems: 5,
+    menuItems: 5,
   },
   {
     id: 24,
@@ -237,7 +237,7 @@ let restaurants = [
     location: "Washington D.C.",
     rating: 4.6,
     type: "Chicken",
-    mealItems: 7,
+    menuItems: 7,
   },
   {
     id: 25,
@@ -247,7 +247,7 @@ let restaurants = [
     location: "Houston",
     rating: 4.5,
     type: "Chicken",
-    mealItems: 12,
+    menuItems: 12,
   },
   {
     id: 26,
@@ -257,7 +257,7 @@ let restaurants = [
     location: "New York",
     rating: 4.7,
     type: "Dessert",
-    mealItems: 9,
+    menuItems: 9,
   },
   {
     id: 27,
@@ -267,7 +267,7 @@ let restaurants = [
     location: "Seattle",
     rating: 4.5,
     type: "Dessert",
-    mealItems: 8,
+    menuItems: 8,
   },
   {
     id: 28,
@@ -277,7 +277,7 @@ let restaurants = [
     location: "Portland",
     rating: 4.1,
     type: "Dessert",
-    mealItems: 4,
+    menuItems: 4,
   },
   {
     id: 29,
@@ -287,7 +287,7 @@ let restaurants = [
     location: "San Francisco",
     rating: 4.3,
     type: "Dessert",
-    mealItems: 7,
+    menuItems: 7,
   },
   {
     id: 30,
@@ -297,7 +297,7 @@ let restaurants = [
     location: "Los Angeles",
     rating: 4.6,
     type: "Dessert",
-    mealItems: 14,
+    menuItems: 14,
   },
   {
     id: 31,
@@ -307,7 +307,7 @@ let restaurants = [
     location: "Chicago",
     rating: 4.4,
     type: "Dessert",
-    mealItems: 11,
+    menuItems: 11,
   },
   {
     id: 32,
@@ -317,7 +317,7 @@ let restaurants = [
     location: "Boston",
     rating: 4.7,
     type: "Dessert",
-    mealItems: 12,
+    menuItems: 12,
   },
 ];
 
