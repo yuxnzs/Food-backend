@@ -325,7 +325,7 @@ function getAllRestaurants() {
   return restaurants;
 }
 
-function getRestaurantsById(id: number) {
+function getRestaurantById(id: number) {
   return restaurants.find((restaurant) => restaurant.id === id);
 }
 
@@ -339,7 +339,7 @@ function getRestaurantMenuItemCount(id: number) {
 
 export {
   getAllRestaurants,
-  getRestaurantsById,
+  getRestaurantById,
   getRestaurantsByType,
   getRestaurantMenuItemCount,
 };
