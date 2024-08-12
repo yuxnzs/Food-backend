@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import {
   getAllRestaurants,
   getRestaurantById,
@@ -8,6 +9,7 @@ import { getNumberOfMeals } from "./meal-db-service";
 
 const app = express();
 
+app.use(cors());
 // Return data for the home page
 app.get("/restaurants", (req, res) => {
   res.send(getAllRestaurants());
@@ -37,6 +39,6 @@ app.get("/restaurants/:category/:id", async (req, res) => {
   res.json({ restaurant, meals });
 });
 
-app.listen(3000, () => {
-  console.log("Server is running on port 3000");
+app.listen(3001, () => {
+  console.log("Server is running on port 3001");
 });
