@@ -7,7 +7,7 @@ let restaurants = [
     priceRange: "$7 ~ 17",
     location: "Philadelphia",
     rating: 4.6,
-    type: "Breakfast",
+    category: "Breakfast",
     menuItemCount: 7,
   },
   {
@@ -18,7 +18,7 @@ let restaurants = [
     priceRange: "$6 ~ 16",
     location: "San Diego",
     rating: 4.3,
-    type: "Breakfast",
+    category: "Breakfast",
     menuItemCount: 11,
   },
   {
@@ -29,7 +29,7 @@ let restaurants = [
     priceRange: "$5 ~ 15",
     location: "Columbus",
     rating: 4.1,
-    type: "Breakfast",
+    category: "Breakfast",
     menuItemCount: 5,
   },
   {
@@ -40,7 +40,7 @@ let restaurants = [
     priceRange: "$4 ~ 9",
     location: "Indianapolis",
     rating: 4.7,
-    type: "Breakfast",
+    category: "Breakfast",
     menuItemCount: 9,
   },
   {
@@ -51,7 +51,7 @@ let restaurants = [
     priceRange: "$12 ~ 22",
     location: "Houston",
     rating: 4.4,
-    type: "Beef",
+    category: "Beef",
     menuItemCount: 13,
   },
   {
@@ -62,7 +62,7 @@ let restaurants = [
     priceRange: "$11 ~ 21",
     location: "Dallas",
     rating: 4.4,
-    type: "Beef",
+    category: "Beef",
     menuItemCount: 6,
   },
   {
@@ -73,7 +73,7 @@ let restaurants = [
     priceRange: "$14 ~ 24",
     location: "Austin",
     rating: 4.5,
-    type: "Beef",
+    category: "Beef",
     menuItemCount: 10,
   },
   {
@@ -84,7 +84,7 @@ let restaurants = [
     priceRange: "$12 ~ 22",
     location: "Fort Worth",
     rating: 4.6,
-    type: "Beef",
+    category: "Beef",
     menuItemCount: 8,
   },
   {
@@ -95,7 +95,7 @@ let restaurants = [
     priceRange: "$10 ~ 20",
     location: "Denver",
     rating: 4.4,
-    type: "Beef",
+    category: "Beef",
     menuItemCount: 15,
   },
   {
@@ -106,7 +106,7 @@ let restaurants = [
     priceRange: "$12 ~ 24",
     location: "Nashville",
     rating: 4.7,
-    type: "Beef",
+    category: "Beef",
     menuItemCount: 4,
   },
   {
@@ -117,7 +117,7 @@ let restaurants = [
     priceRange: "$9 ~ 19",
     location: "Baltimore",
     rating: 4.4,
-    type: "Beef",
+    category: "Beef",
     menuItemCount: 7,
   },
   {
@@ -128,7 +128,7 @@ let restaurants = [
     priceRange: "$9 ~ 19",
     location: "Phoenix",
     rating: 4.1,
-    type: "Beef",
+    category: "Beef",
     menuItemCount: 12,
   },
   {
@@ -139,7 +139,7 @@ let restaurants = [
     priceRange: "$8 ~ 18",
     location: "Chicago",
     rating: 4.3,
-    type: "Pasta",
+    category: "Pasta",
     menuItemCount: 5,
   },
   {
@@ -150,7 +150,7 @@ let restaurants = [
     priceRange: "$8 ~ 18",
     location: "Charlotte",
     rating: 4.4,
-    type: "Pasta",
+    category: "Pasta",
     menuItemCount: 5,
   },
   {
@@ -161,7 +161,7 @@ let restaurants = [
     priceRange: "$7 ~ 15",
     location: "Las Vegas",
     rating: 4.2,
-    type: "Pasta",
+    category: "Pasta",
     menuItemCount: 9,
   },
   {
@@ -172,7 +172,7 @@ let restaurants = [
     priceRange: "$5 ~ 10",
     location: "New Orleans",
     rating: 4.5,
-    type: "Seafood",
+    category: "Seafood",
     menuItemCount: 6,
   },
   {
@@ -183,7 +183,7 @@ let restaurants = [
     priceRange: "$9 ~ 19",
     location: "Boston",
     rating: 4.3,
-    type: "Seafood",
+    category: "Seafood",
     menuItemCount: 14,
   },
   {
@@ -194,7 +194,7 @@ let restaurants = [
     priceRange: "$12 ~ 22",
     location: "Boston",
     rating: 4.6,
-    type: "Seafood",
+    category: "Seafood",
     menuItemCount: 8,
   },
   {
@@ -205,7 +205,7 @@ let restaurants = [
     priceRange: "$6 ~ 14",
     location: "New Orleans",
     rating: 4.3,
-    type: "Seafood",
+    category: "Seafood",
     menuItemCount: 4,
   },
   {
@@ -216,7 +216,7 @@ let restaurants = [
     priceRange: "$8 ~ 18",
     location: "Miami",
     rating: 4.4,
-    type: "Seafood",
+    category: "Seafood",
     menuItemCount: 11,
   },
   {
@@ -227,7 +227,7 @@ let restaurants = [
     priceRange: "$10 ~ 20",
     location: "San Francisco",
     rating: 4.5,
-    type: "Seafood",
+    category: "Seafood",
     menuItemCount: 15,
   },
   {
@@ -238,7 +238,7 @@ let restaurants = [
     priceRange: "$10 ~ 20",
     location: "San Francisco",
     rating: 4.2,
-    type: "Chicken",
+    category: "Chicken",
     menuItemCount: 13,
   },
   {
@@ -249,7 +249,7 @@ let restaurants = [
     priceRange: "$13 ~ 23",
     location: "San Jose",
     rating: 4.7,
-    type: "Chicken",
+    category: "Chicken",
     menuItemCount: 5,
   },
   {
@@ -260,7 +260,7 @@ let restaurants = [
     priceRange: "$7 ~ 17",
     location: "Washington D.C.",
     rating: 4.6,
-    type: "Chicken",
+    category: "Chicken",
     menuItemCount: 7,
   },
   {
@@ -271,7 +271,7 @@ let restaurants = [
     priceRange: "$10 ~ 18",
     location: "Houston",
     rating: 4.5,
-    type: "Chicken",
+    category: "Chicken",
     menuItemCount: 12,
   },
   {
@@ -282,7 +282,7 @@ let restaurants = [
     priceRange: "$15 ~ 25",
     location: "New York",
     rating: 4.7,
-    type: "Dessert",
+    category: "Dessert",
     menuItemCount: 9,
   },
   {
@@ -293,7 +293,7 @@ let restaurants = [
     priceRange: "$6 ~ 12",
     location: "Seattle",
     rating: 4.5,
-    type: "Dessert",
+    category: "Dessert",
     menuItemCount: 8,
   },
   {
@@ -304,7 +304,7 @@ let restaurants = [
     priceRange: "$5 ~ 10",
     location: "Portland",
     rating: 4.1,
-    type: "Dessert",
+    category: "Dessert",
     menuItemCount: 4,
   },
   {
@@ -315,7 +315,7 @@ let restaurants = [
     priceRange: "$9 ~ 19",
     location: "San Francisco",
     rating: 4.3,
-    type: "Dessert",
+    category: "Dessert",
     menuItemCount: 7,
   },
   {
@@ -326,7 +326,7 @@ let restaurants = [
     priceRange: "$7 ~ 15",
     location: "Los Angeles",
     rating: 4.6,
-    type: "Dessert",
+    category: "Dessert",
     menuItemCount: 14,
   },
   {
@@ -337,7 +337,7 @@ let restaurants = [
     priceRange: "$8 ~ 18",
     location: "Chicago",
     rating: 4.4,
-    type: "Dessert",
+    category: "Dessert",
     menuItemCount: 11,
   },
   {
@@ -348,7 +348,7 @@ let restaurants = [
     priceRange: "$6 ~ 14",
     location: "Boston",
     rating: 4.7,
-    type: "Dessert",
+    category: "Dessert",
     menuItemCount: 12,
   },
 ];
@@ -361,8 +361,8 @@ function getRestaurantById(id: number) {
   return restaurants.find((restaurant) => restaurant.id === id);
 }
 
-function getRestaurantsByType(type: string) {
-  return restaurants.filter((restaurant) => restaurant.type === type);
+function getRestaurantsBycategory(category: string) {
+  return restaurants.filter((restaurant) => restaurant.category === category);
 }
 
 function getRestaurantMenuItemCount(id: number) {
@@ -372,6 +372,6 @@ function getRestaurantMenuItemCount(id: number) {
 export {
   getAllRestaurants,
   getRestaurantById,
-  getRestaurantsByType,
+  getRestaurantsBycategory,
   getRestaurantMenuItemCount,
 };
