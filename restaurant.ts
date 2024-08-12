@@ -7,7 +7,7 @@ let restaurants = [
     location: "Philadelphia",
     rating: 4.6,
     type: "Breakfast",
-    menuItems: 7,
+    menuItemCount: 7,
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ let restaurants = [
     location: "San Diego",
     rating: 4.3,
     type: "Breakfast",
-    menuItems: 11,
+    menuItemCount: 11,
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ let restaurants = [
     location: "Columbus",
     rating: 4.1,
     type: "Breakfast",
-    menuItems: 5,
+    menuItemCount: 5,
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ let restaurants = [
     location: "Indianapolis",
     rating: 4.7,
     type: "Breakfast",
-    menuItems: 9,
+    menuItemCount: 9,
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ let restaurants = [
     location: "Houston",
     rating: 4.4,
     type: "Beef",
-    menuItems: 13,
+    menuItemCount: 13,
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ let restaurants = [
     location: "Dallas",
     rating: 4.4,
     type: "Beef",
-    menuItems: 6,
+    menuItemCount: 6,
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ let restaurants = [
     location: "Austin",
     rating: 4.5,
     type: "Beef",
-    menuItems: 10,
+    menuItemCount: 10,
   },
   {
     id: 8,
@@ -79,7 +79,7 @@ let restaurants = [
     location: "Fort Worth",
     rating: 4.6,
     type: "Beef",
-    menuItems: 8,
+    menuItemCount: 8,
   },
   {
     id: 9,
@@ -89,7 +89,7 @@ let restaurants = [
     location: "Denver",
     rating: 4.4,
     type: "Beef",
-    menuItems: 15,
+    menuItemCount: 15,
   },
   {
     id: 10,
@@ -100,7 +100,7 @@ let restaurants = [
     location: "Nashville",
     rating: 4.7,
     type: "Beef",
-    menuItems: 4,
+    menuItemCount: 4,
   },
   {
     id: 11,
@@ -110,7 +110,7 @@ let restaurants = [
     location: "Baltimore",
     rating: 4.4,
     type: "Beef",
-    menuItems: 7,
+    menuItemCount: 7,
   },
   {
     id: 12,
@@ -121,7 +121,7 @@ let restaurants = [
     location: "Phoenix",
     rating: 4.1,
     type: "Beef",
-    menuItems: 12,
+    menuItemCount: 12,
   },
   {
     id: 13,
@@ -131,7 +131,7 @@ let restaurants = [
     location: "Chicago",
     rating: 4.3,
     type: "Pasta",
-    menuItems: 5,
+    menuItemCount: 5,
   },
   {
     id: 14,
@@ -142,7 +142,7 @@ let restaurants = [
     location: "Charlotte",
     rating: 4.4,
     type: "Pasta",
-    menuItems: 5,
+    menuItemCount: 5,
   },
   {
     id: 15,
@@ -152,7 +152,7 @@ let restaurants = [
     location: "Las Vegas",
     rating: 4.2,
     type: "Pasta",
-    menuItems: 9,
+    menuItemCount: 9,
   },
   {
     id: 16,
@@ -162,7 +162,7 @@ let restaurants = [
     location: "New Orleans",
     rating: 4.5,
     type: "Seafood",
-    menuItems: 6,
+    menuItemCount: 6,
   },
   {
     id: 17,
@@ -172,7 +172,7 @@ let restaurants = [
     location: "Boston",
     rating: 4.3,
     type: "Seafood",
-    menuItems: 14,
+    menuItemCount: 14,
   },
   {
     id: 18,
@@ -182,7 +182,7 @@ let restaurants = [
     location: "Boston",
     rating: 4.6,
     type: "Seafood",
-    menuItems: 8,
+    menuItemCount: 8,
   },
   {
     id: 19,
@@ -192,7 +192,7 @@ let restaurants = [
     location: "New Orleans",
     rating: 4.3,
     type: "Seafood",
-    menuItems: 4,
+    menuItemCount: 4,
   },
   {
     id: 20,
@@ -203,7 +203,7 @@ let restaurants = [
     location: "Miami",
     rating: 4.4,
     type: "Seafood",
-    menuItems: 11,
+    menuItemCount: 11,
   },
   {
     id: 21,
@@ -214,7 +214,7 @@ let restaurants = [
     location: "San Francisco",
     rating: 4.5,
     type: "Seafood",
-    menuItems: 15,
+    menuItemCount: 15,
   },
   {
     id: 22,
@@ -224,7 +224,7 @@ let restaurants = [
     location: "San Francisco",
     rating: 4.2,
     type: "Chicken",
-    menuItems: 13,
+    menuItemCount: 13,
   },
   {
     id: 23,
@@ -234,7 +234,7 @@ let restaurants = [
     location: "San Jose",
     rating: 4.7,
     type: "Chicken",
-    menuItems: 5,
+    menuItemCount: 5,
   },
   {
     id: 24,
@@ -244,7 +244,7 @@ let restaurants = [
     location: "Washington D.C.",
     rating: 4.6,
     type: "Chicken",
-    menuItems: 7,
+    menuItemCount: 7,
   },
   {
     id: 25,
@@ -255,7 +255,7 @@ let restaurants = [
     location: "Houston",
     rating: 4.5,
     type: "Chicken",
-    menuItems: 12,
+    menuItemCount: 12,
   },
   {
     id: 26,
@@ -266,7 +266,7 @@ let restaurants = [
     location: "New York",
     rating: 4.7,
     type: "Dessert",
-    menuItems: 9,
+    menuItemCount: 9,
   },
   {
     id: 27,
@@ -276,7 +276,7 @@ let restaurants = [
     location: "Seattle",
     rating: 4.5,
     type: "Dessert",
-    menuItems: 8,
+    menuItemCount: 8,
   },
   {
     id: 28,
@@ -286,7 +286,7 @@ let restaurants = [
     location: "Portland",
     rating: 4.1,
     type: "Dessert",
-    menuItems: 4,
+    menuItemCount: 4,
   },
   {
     id: 29,
@@ -296,7 +296,7 @@ let restaurants = [
     location: "San Francisco",
     rating: 4.3,
     type: "Dessert",
-    menuItems: 7,
+    menuItemCount: 7,
   },
   {
     id: 30,
@@ -307,7 +307,7 @@ let restaurants = [
     location: "Los Angeles",
     rating: 4.6,
     type: "Dessert",
-    menuItems: 14,
+    menuItemCount: 14,
   },
   {
     id: 31,
@@ -318,7 +318,7 @@ let restaurants = [
     location: "Chicago",
     rating: 4.4,
     type: "Dessert",
-    menuItems: 11,
+    menuItemCount: 11,
   },
   {
     id: 32,
@@ -328,7 +328,7 @@ let restaurants = [
     location: "Boston",
     rating: 4.7,
     type: "Dessert",
-    menuItems: 12,
+    menuItemCount: 12,
   },
 ];
 
@@ -345,7 +345,7 @@ function getRestaurantsByType(type: string) {
 }
 
 function getRestaurantMenuItemCount(id: number) {
-  return restaurants.find((restaurant) => restaurant.id === id)?.menuItems;
+  return restaurants.find((restaurant) => restaurant.id === id)?.menuItemCount;
 }
 
 export {
