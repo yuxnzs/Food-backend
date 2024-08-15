@@ -8,8 +8,8 @@ import {
 import { getNumberOfMeals } from "./meal-db-service";
 
 const app = express();
-
 app.use(cors());
+
 // Return data for the home page
 app.get("/restaurants", (req, res) => {
   res.send(getAllRestaurants());
