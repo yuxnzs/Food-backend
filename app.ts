@@ -15,8 +15,8 @@ app.get("/restaurants", (req, res) => {
   res.send(getAllRestaurants());
 });
 
-// Return data for a restaurant's detail page
-app.get("/restaurants/:category/:id", async (req, res) => {
+// Return data for a restaurant's menu page
+app.get("/restaurant/:category/:id", async (req, res) => {
   const { category, id } = req.params;
 
   // Convert string id to number
